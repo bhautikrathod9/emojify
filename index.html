@@ -2,12 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
+
+    <!-- 🔐 Title & Description -->
+    <title>🔐 Emojify – Hide Your Secrets in Emojis</title>
+    <meta name="description" content="Encrypt and decrypt text using emojis and a secret PIN. A fun and secure way to hide messages!" />
+
+    <!-- 🎨 Theme & Favicon -->
+    <meta name="theme-color" content="#6366f1" />
+    <link rel="icon" type="image/png" href="/emoji-lock.png" />
+
+    <!-- 📱 Apple & Mobile -->
+    <meta name="apple-mobile-web-app-title" content="Emoji Encryptor" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- 📣 Social Meta (Open Graph / Twitter Cards) -->
+    <meta property="og:title" content="Emoji Encryptor 🔐" />
+    <meta property="og:description" content="Hide and reveal secret messages with emojis and a PIN. Try it now!" />
+    <meta property="og:image" content="/preview.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Emoji Encryptor 🔐" />
+    <meta name="twitter:description" content="Fun tool to convert text into emojis and decrypt with a PIN." />
+    <meta name="twitter:image" content="/preview.png" />
+
+    <!-- ⚡ Vite Script -->
     <script type="module" src="/src/main.jsx"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-900 font-sans">
+    <div id="root"></div>
   </body>
 </html>
