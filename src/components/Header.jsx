@@ -11,9 +11,9 @@ const Header = () => {
         </h1>
       </div>
       <div className="hidden sm:flex text-sm space-x-6">
-        <a href="#how-it-works" className="hover:underline">
+        {/* <a href="" className="hover:underline">
           How it Works
-        </a>
+        </a> */}
         <a href="https://github.com/bhautikrathod9/emojify" className="hover:underline">
           GitHub
         </a>
